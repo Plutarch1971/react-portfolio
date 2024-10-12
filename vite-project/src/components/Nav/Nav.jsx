@@ -1,5 +1,5 @@
 export default function Nav() {
-    const linkStyle = { border: '1px black', padding: '5px' };
+    const linkStyle = { border: '1px black', padding: '5px', margin: '20px' };
   
     return (
       <nav className="main-header-menu">
@@ -13,16 +13,16 @@ export default function Nav() {
           }}
         >
           <div style={linkStyle}>
-            <a href="#">About</a>
+            <a href="/About">About</a>
           </div>
           <div style={linkStyle}>
-            <a href="#">Portfolio</a>
+            <a href="/Portfolio">Portfolio</a>
           </div>
           <div style={linkStyle}>
-            <a href="#">Contact</a>
+            <a href="/Contact">Contact</a>
           </div>
           <div style={linkStyle}>
-            <a href="#">Resume</a>
+            <a href="/Resume">Resume</a>
           </div>
         </section>
       </nav>
