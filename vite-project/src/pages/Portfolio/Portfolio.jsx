@@ -3,8 +3,9 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <div>
+            <div className='titleTheme'>
             <h1>Projects and Assignments</h1>
-
+            </div>
             <div className="big-box">
                 <div className="box">
                     <h2></h2>
@@ -31,7 +32,8 @@ const Portfolio = () => {
                     <h2></h2>
                     <div
                     style={{
-                        marginBottom: '10px',
+                        padding: '20px',
+                        marginBottom: '20px',
                         backgroundImage: "url('/My personal Blog Post.png')"
                     }}
                     className="screenshot"

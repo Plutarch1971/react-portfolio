@@ -1,7 +1,20 @@
 import React from 'react';
+// You don't need to import files from the public directory in React. 
+// Instead, you can directly reference them in your JSX using the public URL.
 
 const Resume = () => {
-  return <h1>My Resume</h1>;
+  
+  return (
+  <div className='resume-container'>
+  <div className='titleTheme'>
+    <h1>My Resume</h1>
+    </div>
+    <p>Click the button below to download my resume:</p>
+    <a href="/MatthewMendez_Resume.docx" download="MatthewMendez_Resume.docx">
+    <button className="resume-button">Download Resume</button>
+    </a>
+  </div>
+  );
 };
 
 export default Resume;

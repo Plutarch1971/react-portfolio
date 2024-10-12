@@ -3,7 +3,9 @@ import React from 'react';
 const About = () => {
   return (
   <div>
+    <div className='titleTheme'>
     <h1>About Me</h1>
+    </div>
     <article className='about'>
         My name is Matthew Mendez. I have Canadian equivalent Bachelor's Degree in Education with major Science.
         I worked in the education field for many years. But I always possesed a passion to computer programming.

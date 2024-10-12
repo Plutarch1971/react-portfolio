@@ -14,13 +14,10 @@ import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume/Resume';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
-    <Header></Header>
-    
+    <Header></Header>  
     <Content></Content>
     <Router>
         <Routes>
@@ -31,7 +28,7 @@ function App() {
         </Routes>
     </Router>
             
-      <Footer></Footer>
+    <Footer></Footer>
     </>
   )
 }
