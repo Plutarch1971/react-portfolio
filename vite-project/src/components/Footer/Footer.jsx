@@ -1,7 +1,11 @@
 import  '../../App';
 function Footer(){
     return (
-        <div className="header-footer">Footer</div>
+        <div className="footer">  
+           <li>Email:</li>
+           <li>Phone:</li>
+           <li>Github:</li>
+        </div>
     );
 }
 export default Footer;
