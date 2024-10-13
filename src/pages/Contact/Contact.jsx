@@ -3,11 +3,11 @@ const Contact = () => {
     return (
         <div className='contact-form-container'>
             <h2>Contact Me</h2>     
-            <form className='form'>
+            <form className='form'> 
                 <label htmlFor="email">Email:</label>
-                <input type="email" id="email" name="email" required/>
+                <input type="email" id="email" name="email" required placeholder="matthewpmendez@gmail.com"/>
                 <label htmlFor="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required />
+                <input type="tel" id="phone" name="phone" required placeholder="647-703-7761"/>
                 <label htmlFor="message">Message:</label>
                 <textarea id="message" name="message" required rows="10" cols="50"></textarea>
                 <button className='button' type="submit">Submit</button>
