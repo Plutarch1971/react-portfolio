@@ -8,7 +8,6 @@ const Portfolio = () => {
             </div>
             <div className="big-box">
                 <div className="box">
-                    <h2></h2>
                     <div 
                         style={{
                             padding: '10px',
@@ -19,7 +18,6 @@ const Portfolio = () => {
                 </div>
 
                 <div className="box">
-                    <h2></h2>
                     <div 
                         style={{
                             backgroundImage: "url('/My Portfolio.png')"
@@ -29,10 +27,9 @@ const Portfolio = () => {
                 </div>
 
                 <div className="box">
-                    <h2></h2>
                     <div
                     style={{
-                        padding: '20px',
+                        padding: '5px',
                         marginBottom: '20px',
                         backgroundImage: "url('/My personal Blog Post.png')"
                     }}
@@ -41,9 +38,9 @@ const Portfolio = () => {
                 </div>
 
                 <div className="box">
-                    <h2></h2>
                     <div
                     style={{
+                        padding: '15px',
                         backgroundImage: "url('/My New Website.png')"
                     }}
                     className="screenshot"

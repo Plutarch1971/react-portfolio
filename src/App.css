@@ -3,7 +3,7 @@
 }
 #root {
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   /* text-align: center; */
 }
 .header{
@@ -20,18 +20,14 @@
   font-style: normal;
 }
 .footer{
-  color: red;
   width: 1300px;
   height: 100px;
   background: var(--background-gradient);
- /* background: -webkit-linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%); */
-  display: flex;
+  display: flex; 
   justify-content:center;
   align-items: center; /* Vertically centers the text */
-  padding-left: 30px; /* Adds padding to the left */
-  font-family: "Protest Strike", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Protest Strike", sans-serif; 
+  
 }
 .main-header-menu{
   margin-right: 100px;  
@@ -40,6 +36,13 @@
   font-style: normal;
   font-size: 30px;
 }
+.nav {
+    display:flex;
+    font-family: helvetica;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -68,6 +71,20 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
 .card {
   padding: 2em;
 }
@@ -82,7 +99,7 @@
 
 .big-box {
   width: 1300px;
-  outline: 2px solid red;
+  outline: 2px solid red; 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -92,14 +109,14 @@
 .box {
   width: 1300px;
   margin: 10px;
-  padding: 2px;
+  padding: px;
   width: 48%;
-  outline: 2px solid black;
+  outline: 2px solid black; 
 }
 
 .screenshot {
   width: 95%;
-  height: 250px;
+  height: 240px;
   background-size: cover;
   background-position: center;
 }
@@ -146,9 +163,7 @@ label {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-/* h1{
-  color: 90E0EF;  
-} */
+
 /* Input and textarea styling */
 input[type="email"],
 input[type="tel"],
@@ -165,25 +180,75 @@ textarea {
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid transparent;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.25s;
 }
-button:hover {
-  background-color: #0056b3;
-}
+ button:hover {
+  background-color:#646cff;  
+}  
 
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .contact-form-container {
-    padding: 15px;
+    width: 100%;
+    max-height: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #a2d2ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+    padding: 3px;
   }
-
-  button {
+  .big-box{
+    width: 200%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .box{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+    margin: 4px;
+    padding: 2px;
+    width: 48%;
+  }
+  .header{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  }
+  .button {
     width: 100%; /* Make the button fill the width on smaller screens */
   }
+  .nav{
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+  .about{
+    font-size:large ;
+    width:100%;
+    height: 100%;
+    color: #888;
+  }
+  .footer{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content:flex-start;
+    align-items: center; /* Vertically centers the text */
+    font-family: "Protest Strike", sans-serif;    
+  }
 }
+
 .titleTheme{
   color: white;
   margin-bottom: 30px;

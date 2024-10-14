@@ -22,11 +22,12 @@ import {FaGithub, FaLinkedin, FaStackOverflow, FaTwitter} from 'react-icons/fa';
          <a href="https://www.linkedin.com/feed/?trk=help_me_menu" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
          </a>
-         {/* <a href={thirdPlatform} target="_blank" rel="noopener noreferrer">
-            {renderThirdPlatformIcon()}
-            {thirdPlatformType.charAt(0).toUpperCase() + thirdPlatformType.slice(1)}
-         </a> */}
         </div>
     );
 }
 export default Footer;
+
+/*{/* <a href={thirdPlatform} target="_blank" rel="noopener noreferrer">
+            {renderThirdPlatformIcon()}
+            {thirdPlatformType.charAt(0).toUpperCase() + thirdPlatformType.slice(1)}
+         </a> */

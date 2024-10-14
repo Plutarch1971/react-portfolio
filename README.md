@@ -21,20 +21,16 @@ The navigation between these sections is smooth and quick, showcasing React's vi
 
 ## Technologies Used
 
-- **React**: Front-end framework to build the user interface and manage application state.
-- **React Router**: For client-side routing, enabling seamless transitions between different sections without page reloads.
-- **Node.js**: Backend environment for server-side operations.
-- **NPM Packages**: Various packages to enhance the functionality of the app.
+- **React**: React is used to build the Front-end user interface and manage application state.
+- **React Router**: React Router is use for client-side routing, to  enable flawless transitions between different sections without causing page to reload.
+- **Node.js**: Node js is used for backend building.
+- **NPM Packages**: NPM various packages are use to enhance the functionality of the app.
 - **CSS**: Styling and responsiveness across devices.
-React: Front-end framework to build the user interface and manage application state.
-React Router: For client-side routing, enabling seamless transitions between different sections without page reloads.
-Node.js: Backend environment for server-side operations.
-NPM Packages: Various packages to enhance the functionality of the app.
-CSS: Styling and responsiveness across devices.
+
 ## Features
 Responsive Design: The app is responsive and adapts to various screen sizes, from mobile to desktop.
 Dynamic Routing: Navigation changes the browser URL and content without refreshing the page, ensuring a smooth user experience.
-Interactive Portfolio: Showcases my projects and assignments, each with links to their deployed versions and GitHub repositories.
+Portfolio: Showcases my projects and assignments.
 Form Validation: The contact form includes validation to ensure proper inputs, including email formatting and required fields.
 Downloadable Resume: The resume section includes a link to download my resume and lists key proficiencies.
 Social Links: Footer includes links to my GitHub and LinkedIn profiles.
@@ -64,12 +60,7 @@ npm start
 The application should now be running on http://localhost:3000.
 
 ## Usage
-Upon loading the application, you will be greeted with:
-
-About Me section, which provides a brief bio.
-My Profile section, showcasing projects and assignments with images, titles, and links to both live versions and GitHub repositories.
-Contact Me section, which contains a contact form for users to reach out.
-Resume section, which includes a downloadable link to my resume and a list of proficiencies.
+Upon loading the application,you will the page with my name and the navigation tabs plus the footer. You can navigate through the application using the navigation tabs. 
 
 ## Screenshot
 ### My Profile

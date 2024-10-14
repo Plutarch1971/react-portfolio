@@ -3,15 +3,7 @@ export default function Nav() {
   
     return (
       <nav className="main-header-menu">
-        <section
-          style={{
-            display: 'flex',
-            fontFamily: 'helvetica',
-            flexDirection: 'row',
-            alignItems: 'flex-start',
-            justifyContent: 'flex-start',
-          }}
-        >
+        <section className="nav" >
           <div style={linkStyle}>
             <a href="/About">About</a>
           </div>
