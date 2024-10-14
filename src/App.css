@@ -215,16 +215,20 @@ button:focus-visible {
   .box{
     flex-wrap: wrap;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
     margin: 4px;
     padding: 2px;
     width: 48%;
+    padding-left: 10px;
   }
   .header{
-  width: 100%;
+  width:100%;
   height: 30%;
   display: flex;
   flex-direction: column;
+  }
+  .myName{
+    font-size: 40px; 
   }
   .button {
     width: 100%; /* Make the button fill the width on smaller screens */
@@ -240,10 +244,10 @@ button:focus-visible {
     color: #888;
   }
   .footer{
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 100px;
     display: flex; 
-    justify-content:flex-start;
+    /* justify-content:flex-start; */
     align-items: center; /* Vertically centers the text */
     font-family: "Protest Strike", sans-serif;    
   }
@@ -252,7 +256,6 @@ button:focus-visible {
 .titleTheme{
   color: white;
   margin-bottom: 30px;
-  /*background: -webkit-linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%); */
   background: #CDB4DB;
   text-align: center;
 }
