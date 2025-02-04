@@ -1,9 +1,10 @@
 {
-  "name": "vite-project",
+  "name": "react-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "dev",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
