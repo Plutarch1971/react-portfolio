@@ -11,10 +11,14 @@ const Portfolio = () => {
                     <div 
                         style={{
                             padding: '10px',
-                            backgroundImage: "url('/Employee Payroll Tracker App.png')"
+                            backgroundImage: "url('/google-book-api.png')"
                         }}
                         className="screenshot"
                     ></div>
+                     <div style={{display:'flex', justifyContent: 'space-between'}}>
+                 <a href="https://github.com/Plutarch1971/google-books-api.git">Repository Link</a>
+                 <a href="https://google-books-api-nuwh.onrender.com">Deployment Link</a>
+                </div>
                 </div>
 
                 <div className="box">
