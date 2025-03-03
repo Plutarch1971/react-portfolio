@@ -44,10 +44,14 @@ const Portfolio = () => {
                     <div
                     style={{
                         padding: '15px',
-                        backgroundImage: "url('/My New Website.png')"
+                        backgroundImage: "url('/weather-app-screenshot.png')"
                     }}
                     className="screenshot"
                     ></div>
+                    <div style={{display:'flex', justifyContent: 'space-between'}}>
+                 <a href="https://github.com/Plutarch1971/weather-dashboard.git">Repository Link</a>
+                 <a href="https://weather-dashboard-s6xb.onrender.com">Deployment Link</a>
+                </div>
                 </div>
 
                 <div className="box">

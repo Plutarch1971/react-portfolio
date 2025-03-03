@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header';
 import Content from './components/Content/Content';
@@ -17,8 +14,8 @@ function App() {
 
   return (
     <>
-    <Header></Header>  
-    <Content></Content>
+    <Header/>  
+    <Content />
     <Router>
         <Routes>
           <Route path="/about" element={<About />} />
@@ -26,11 +23,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
-    </Router>
-            
-    <Footer></Footer>
+    </Router>         
+    <Footer />
     </>
-  )
+  );
 }
 
 export default App
