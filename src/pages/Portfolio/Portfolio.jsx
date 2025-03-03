@@ -47,7 +47,8 @@ const Portfolio = () => {
                 <div className="box">
                     <div
                     style={{
-                        padding: '15px',
+                        padding: '10px',
+                        marginLeft: "15px",
                         backgroundImage: "url('/weather-app-screenshot.png')"
                     }}
                     className="screenshot"
