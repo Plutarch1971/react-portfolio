@@ -19,7 +19,7 @@ import {FaGithub, FaLinkedin, FaStackOverflow, FaTwitter} from 'react-icons/fa';
         <div className="footer">  
          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
          <FaGithub /> GitHub </a>
-         <a href="https://www.linkedin.com/feed/?trk=help_me_menu" target="_blank" rel="noopener noreferrer">
+         <a href="www.linkedin.com/in/matthew-mendez-app-developer" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
          </a>
         </div>
