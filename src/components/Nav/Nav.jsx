@@ -10,9 +10,9 @@ export default function Nav() {
           <div style={linkStyle}>
             <a href="/Portfolio">Portfolio</a>
           </div>
-          <div style={linkStyle}>
+          {/* <div style={linkStyle}>
             <a href="/Contact">Contact</a>
-          </div>
+          </div> */}
           <div style={linkStyle}>
             <a href="/Resume">Resume</a>
           </div>

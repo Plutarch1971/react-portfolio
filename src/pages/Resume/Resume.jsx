@@ -10,7 +10,7 @@ const Resume = () => {
     <h1>My Resume</h1>
     </div>
     <p>Click the button below to download my resume:</p>
-    <a href="/MatthewMendez_Resume.docx" download="MatthewMendez_Resume.docx">
+    <a href="/Matthew Mendez-Technical-Resume.docx" download="Matthew Mendez-Technical-Resume.docx">
     <button className="resume-button">Download Resume</button>
     </a>
   </div>

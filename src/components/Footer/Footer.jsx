@@ -1,6 +1,6 @@
 import  '../../App';
 import React from 'react';
-import {FaGithub, FaLinkedin, FaStackOverflow, FaTwitter} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaStackOverflow, FaTwitter, FaEnvelope} from 'react-icons/fa';
 
 // const SocialLinks = ({github, linkedin,thirdPlatform,thirdPlatformType}) => {
     const Footer = ({github, linkedin,thirdPlatform,thirdPlatformType}) => {
@@ -22,12 +22,11 @@ import {FaGithub, FaLinkedin, FaStackOverflow, FaTwitter} from 'react-icons/fa';
          <a href="www.linkedin.com/in/matthew-mendez-app-developer" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
          </a>
+         <a href="mailto:matthewpmendez@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope /> Email
+         </a>
         </div>
     );
 }
 export default Footer;
 
-/*{/* <a href={thirdPlatform} target="_blank" rel="noopener noreferrer">
-            {renderThirdPlatformIcon()}
-            {thirdPlatformType.charAt(0).toUpperCase() + thirdPlatformType.slice(1)}
-         </a> */
