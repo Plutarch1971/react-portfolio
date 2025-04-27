@@ -39,7 +39,7 @@ const Portfolio = () => {
                     }}
                     className="screenshot"
                     ></div>
-                    <div>
+                      <div style={{display:'flex', justifyContent: 'space-between'}}>
                         <a href="https://github.com/Plutarch1971/my-personal-blog-post.git">Repo Link</a>
                         <a href="https://my-personal-blog-post.onrender.com">Deployment Link</a>
                     </div>
