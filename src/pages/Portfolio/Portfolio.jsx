@@ -40,7 +40,8 @@ const Portfolio = () => {
                     className="screenshot"
                     ></div>
                     <div>
-                        <a href="https://github.com/Plutarch1971/my-personal-blog-post.git">My personal Blog Post Repo Link</a>
+                        <a href="https://github.com/Plutarch1971/my-personal-blog-post.git">Repo Link</a>
+                        <a href="https://my-personal-blog-post.onrender.com">Deployment Link</a>
                     </div>
                 </div>
 
